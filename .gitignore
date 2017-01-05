@@ -1,19 +1,64 @@
-# Build and Release Folders
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions & files
+*.so
+*.c
+
+# Distribution / packaging
+.Python
+env/
 bin/
-bin-debug/
-bin-release/
-[Oo]bj/ # FlashDevelop obj
-[Bb]in/ # FlashDevelop bin
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Other files and folders
-.settings/
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# vim .swp
+*.swp
+
+# notebooks
+docs/source/.ipynb_checkpoints/
+
+# ignore PyCharm and IntelliJ project metadata
+/.idea/
