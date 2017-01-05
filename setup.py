@@ -26,10 +26,10 @@ else:
 ext_modules = []
 
 if use_cython:
-    ext_modules = cythonize('KSIF/base.py')
+    ext_modules = cythonize('KSIF/core/base.py')
 else:
     ext_modules = [
-        Extension('KSIF.base', ['KSIF/base.c'])
+        Extension('KSIF.core.base', ['KSIF/core/base.c'])
     ]
 
 setup(
